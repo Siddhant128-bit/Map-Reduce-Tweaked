@@ -22,7 +22,7 @@ class reducer(object):
             current_count=0
             for i in self.map_list:
                 key=i.keys()
-                if current_word=key:
+                if current_word==key:
                     current_count+=1
             self.reduce_output[current_word[0]]=current_count
 
